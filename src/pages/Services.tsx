@@ -49,13 +49,24 @@ const Services = () => {
                         <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
                         <span className="text-foreground">{feature}</span>
                       </div>
-                    ))}
-                  </div>
-                </div>
               ))}
             </div>
           </div>
-        </div>
+        ))}
+      </div>
+      
+      <div className="text-center mt-16">
+        <a
+          href="https://l.instagram.com/?u=https%3A%2F%2Fformless.ai%2Fc%2Fm8SPWIP4jDpI%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaf8x4vNcQP0dCJyumvUVMI7VK2BrVFJOHhaTQMyk_TGG0OEVn9M18ZGcTzbWw_aem_-i4aXcPeaaKZ2EPZo1ANjQ&e=AT3Y3qkCCGG-dcL4VdhAkmS26D1a-XJULA77_GIvF-gNHwOhW_lffd2UGrTTRNSIOH9pAPRheBHbG-_3Rk-kSR2BuzTS056awuTDIf4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-primary text-background px-8 py-3 rounded-sm font-medium hover:bg-primary/90 transition-colors"
+        >
+          Book a shoot!
+        </a>
+      </div>
+    </div>
+  </div>
       </main>
     </div>
   );
