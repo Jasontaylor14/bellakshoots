@@ -2,19 +2,29 @@ import Header from '@/components/Header';
 
 const services = [
   {
-    title: "Event Photography",
-    description: "Capturing the excitement and energy of automotive events, from car shows to racing competitions.",
-    features: ["Live event coverage", "Action shots", "Behind-the-scenes moments", "Professional editing"]
+    title: "Stationary Photos",
+    description: "Professional stationary automotive photography capturing every detail in perfect lighting.",
+    features: ["High-resolution images", "Multiple angles", "Detail shots", "Professional editing"]
   },
   {
-    title: "Studio Photography",
-    description: "Professional studio sessions for showcasing vehicles in controlled lighting environments.",
-    features: ["Controlled lighting", "Multiple angles", "Detail shots", "Custom backgrounds"]
+    title: "Rolling Photos",
+    description: "Dynamic rolling shots that capture vehicles in motion with professional panning techniques.",
+    features: ["Motion blur effects", "Speed emphasis", "Action shots", "Road photography"]
   },
   {
-    title: "Editorial Photography",
-    description: "Commercial automotive photography for magazines, websites, and marketing materials.",
-    features: ["Commercial licensing", "High-resolution files", "Brand-focused compositions", "Quick turnaround"]
+    title: "Stationary Videos",
+    description: "Cinematic stationary video content showcasing vehicles with creative camera work.",
+    features: ["4K video quality", "Professional color grading", "Multiple camera angles", "Slow motion shots"]
+  },
+  {
+    title: "Rolling Videos",
+    description: "High-energy rolling video content capturing vehicles in motion from multiple perspectives.",
+    features: ["Tracking shots", "Dynamic angles", "Speed footage", "Professional stabilization"]
+  },
+  {
+    title: "Raw Footage",
+    description: "Unedited raw footage delivery for clients who prefer to handle their own post-production.",
+    features: ["Full resolution files", "Multiple formats", "Complete shoots", "Fast delivery"]
   }
 ];
 
