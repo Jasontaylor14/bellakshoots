@@ -30,59 +30,31 @@ const portfolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="py-20 bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 neon-text">
-            Featured Work
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A curated selection of automotive photography showcasing the beauty, 
-            power, and craftsmanship of exceptional vehicles.
-          </p>
-        </div>
-
-        {/* Portfolio Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="work" className="py-12 bg-background">
+      <div className="container mx-auto px-6">
+        {/* Portfolio Grid - Amy Shore Style */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-1">
           {portfolioItems.map((item) => (
-            <Card key={item.id} className="group overflow-hidden bg-card neon-border hover-glow">
-              <CardContent className="p-0">
-                <div className="relative overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  
-                  {/* Category Badge */}
-                  <Badge 
-                    variant="secondary" 
-                    className="absolute top-4 left-4 neon-text bg-background/80"
-                  >
-                    {item.category}
-                  </Badge>
-                </div>
-                
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2 neon-text">
+            <div key={item.id} className="group relative overflow-hidden aspect-square">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              
+              {/* Overlay with title - appears on hover */}
+              <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-center">
+                <div className="text-center p-6 w-full">
+                  <h3 className="text-lg font-medium neon-text mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-muted-foreground">
+                  <p className="text-sm text-muted-foreground">
                     {item.description}
                   </p>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           ))}
-        </div>
-
-        {/* View More Button */}
-        <div className="text-center mt-12">
-          <button className="neon-text hover:text-accent transition-colors text-lg font-semibold">
-            View Full Portfolio →
-          </button>
         </div>
       </div>
     </section>
