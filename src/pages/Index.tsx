@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
-import ContactSection from '@/components/ContactSection';
 
 const Index = () => {
   return (
@@ -20,7 +19,6 @@ const Index = () => {
           </Link>
         </div>
       </main>
-      <ContactSection />
     </div>
   );
 };
