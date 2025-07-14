@@ -1,5 +1,4 @@
 import { Award, Camera, Users } from 'lucide-react';
-import photographerPortrait from '@/assets/photographer-portrait.jpg';
 
 const AboutSection = () => {
   return (
@@ -54,8 +53,8 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg neon-border">
               <img
-                src={photographerPortrait}
-                alt="Professional car photographer"
+                src="/lovable-uploads/cc6c852d-6cdf-4aea-9249-4dc1be6ba805.png"
+                alt="bellakshoots - Professional car photographer"
                 className="w-full h-auto object-cover hover-glow"
               />
             </div>
