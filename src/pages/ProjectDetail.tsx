@@ -9,12 +9,21 @@ const projectData = {
   'redbull': {
     title: 'Red Bull',
     description: 'Capturing the high-energy world of Red Bull motorsports events.',
-    images: [car1Image, car2Image, car3Image, car1Image, car2Image, car3Image]
+    images: [
+      '/lovable-uploads/db3397ef-7d10-4b0a-95d8-e9600d0d356a.png',
+      '/lovable-uploads/d92417ca-3cbf-442f-91dd-716ec8053549.png'
+    ]
   },
   '24-hours-daytona': {
     title: '24 Hours of Daytona',
     description: 'Documenting the endurance and excitement of the legendary 24-hour race.',
-    images: [car2Image, car3Image, car1Image, car2Image, car3Image, car1Image]
+    images: [
+      '/lovable-uploads/1224eff2-b33c-4e4f-b663-150a70056bcd.png',
+      '/lovable-uploads/74657e4c-5997-4264-b14f-039b4b9a8644.png',
+      '/lovable-uploads/452e4417-6a28-4de7-b4cd-241d1e63ba53.png',
+      '/lovable-uploads/4442890a-9554-4140-8265-805af3af7f67.png',
+      '/lovable-uploads/970af9bc-2da1-4e1d-aff4-e2912bfce469.png'
+    ]
   },
   'slushfest-co': {
     title: 'Slushfest CO',

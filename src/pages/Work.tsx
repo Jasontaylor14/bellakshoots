@@ -7,13 +7,13 @@ import car3Image from '@/assets/car-3.jpg';
 const portfolioItems = [
   {
     id: 'redbull',
-    image: car1Image,
+    image: '/lovable-uploads/db3397ef-7d10-4b0a-95d8-e9600d0d356a.png',
     title: "Red Bull",
     category: "Event Coverage"
   },
   {
     id: '24-hours-daytona',
-    image: car2Image,
+    image: '/lovable-uploads/1224eff2-b33c-4e4f-b663-150a70056bcd.png',
     title: "24 Hours of Daytona",
     category: "Racing"
   },
