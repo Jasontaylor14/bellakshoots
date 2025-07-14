@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X, Camera } from 'lucide-react';
 
 const Header = () => {
@@ -11,25 +12,25 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <Camera className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold neon-text">AutoLux Photography</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-12">
-            <a href="#work" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
+            <Link to="/work" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               Work
-            </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               About
-            </a>
-            <a href="#services" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
+            </Link>
+            <Link to="/services" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               Services
-            </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
+            </Link>
+            <Link to="#contact" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -47,34 +48,34 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-border/20">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a
-                href="#work"
+              <Link
+                to="/work"
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider"
                 onClick={toggleMenu}
               >
                 Work
-              </a>
-              <a
-                href="#about"
+              </Link>
+              <Link
+                to="/about"
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider"
                 onClick={toggleMenu}
               >
                 About
-              </a>
-              <a
-                href="#services"
+              </Link>
+              <Link
+                to="/services"
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider"
                 onClick={toggleMenu}
               >
                 Services
-              </a>
-              <a
-                href="#contact"
+              </Link>
+              <Link
+                to="#contact"
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider"
                 onClick={toggleMenu}
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         )}
