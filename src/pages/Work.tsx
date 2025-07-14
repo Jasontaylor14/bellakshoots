@@ -7,7 +7,7 @@ import car3Image from '@/assets/car-3.jpg';
 const portfolioItems = [
   {
     id: 'redbull',
-    image: '/lovable-uploads/db3397ef-7d10-4b0a-95d8-e9600d0d356a.png',
+    image: '/lovable-uploads/f6fd6f07-9f80-4dc2-9d87-fd578d51b0f7.png',
     title: "Red Bull",
     category: "Event Coverage"
   },

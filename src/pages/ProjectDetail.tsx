@@ -10,8 +10,8 @@ const projectData = {
     title: 'Red Bull',
     description: 'Capturing the high-energy world of Red Bull motorsports events.',
     images: [
-      '/lovable-uploads/db3397ef-7d10-4b0a-95d8-e9600d0d356a.png',
-      '/lovable-uploads/d92417ca-3cbf-442f-91dd-716ec8053549.png'
+      '/lovable-uploads/f6fd6f07-9f80-4dc2-9d87-fd578d51b0f7.png',
+      '/lovable-uploads/8bba734d-0566-4073-b634-9fe3469d7959.png'
     ]
   },
   '24-hours-daytona': {
