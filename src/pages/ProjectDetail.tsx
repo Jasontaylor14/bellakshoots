@@ -28,7 +28,15 @@ const projectData = {
   'slushfest-co': {
     title: 'Slushfest CO',
     description: 'Winter automotive gathering in the Colorado mountains.',
-    images: [car3Image, car1Image, car2Image, car3Image, car1Image, car2Image]
+    images: [
+      '/lovable-uploads/e28d0194-0e8f-4520-b73d-c977d04e9db3.png',
+      '/lovable-uploads/56769d11-8109-409c-8e0b-d28f1d7c97f8.png',
+      '/lovable-uploads/d87b7c95-f5e1-4b06-96a7-75d57dcf1849.png',
+      '/lovable-uploads/d703c67c-f7c6-4497-8f3f-81519f795bc1.png',
+      '/lovable-uploads/2b1d9f92-f1df-4f98-ad23-023d49982589.png',
+      '/lovable-uploads/4bd0a078-e7ba-420e-ad59-866b9e3f825c.png',
+      '/lovable-uploads/b0b3079c-6089-42f5-b804-09c9cf4d234c.png'
+    ]
   },
   'fuelfest': {
     title: 'FuelFest',

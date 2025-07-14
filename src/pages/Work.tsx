@@ -19,7 +19,7 @@ const portfolioItems = [
   },
   {
     id: 'slushfest-co',
-    image: car3Image,
+    image: '/lovable-uploads/b0b3079c-6089-42f5-b804-09c9cf4d234c.png',
     title: "Slushfest CO",
     category: "Winter Event"
   },
