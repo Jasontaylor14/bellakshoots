@@ -18,11 +18,11 @@ const projectData = {
     title: '24 Hours of Daytona',
     description: 'Documenting the endurance and excitement of the legendary 24-hour race.',
     images: [
-      '/lovable-uploads/1224eff2-b33c-4e4f-b663-150a70056bcd.png',
-      '/lovable-uploads/74657e4c-5997-4264-b14f-039b4b9a8644.png',
-      '/lovable-uploads/452e4417-6a28-4de7-b4cd-241d1e63ba53.png',
-      '/lovable-uploads/4442890a-9554-4140-8265-805af3af7f67.png',
-      '/lovable-uploads/970af9bc-2da1-4e1d-aff4-e2912bfce469.png'
+      '/lovable-uploads/46f638f3-6d02-42cf-872f-ca61f438d6df.png',
+      '/lovable-uploads/24da55ae-5142-4389-9e6c-6c04f24e99be.png',
+      '/lovable-uploads/d24f923b-feff-44ce-bb28-ab6463524544.png',
+      '/lovable-uploads/7ca9fe04-f5c5-4cb4-b6e8-2662b15edc47.png',
+      '/lovable-uploads/81ea22e9-ad8d-48e0-98e3-dc493cc5d223.png'
     ]
   },
   'slushfest-co': {

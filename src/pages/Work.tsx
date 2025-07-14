@@ -13,7 +13,7 @@ const portfolioItems = [
   },
   {
     id: '24-hours-daytona',
-    image: '/lovable-uploads/1224eff2-b33c-4e4f-b663-150a70056bcd.png',
+    image: '/lovable-uploads/81ea22e9-ad8d-48e0-98e3-dc493cc5d223.png',
     title: "24 Hours of Daytona",
     category: "Racing"
   },
