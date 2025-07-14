@@ -9,7 +9,7 @@ const AboutSection = () => {
           {/* Text Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 neon-text">
-              About the Artist
+              About bellakshoots
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6">

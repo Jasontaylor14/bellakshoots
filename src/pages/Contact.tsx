@@ -22,7 +22,7 @@ const Contact = () => {
               >
                 <Instagram className="h-8 w-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-foreground font-medium">Instagram</span>
-                <span className="text-sm text-muted-foreground">@autoluxphoto</span>
+                <span className="text-sm text-muted-foreground">@bellakshoots</span>
               </a>
               
               <a
@@ -33,7 +33,7 @@ const Contact = () => {
               >
                 <Music className="h-8 w-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-foreground font-medium">TikTok</span>
-                <span className="text-sm text-muted-foreground">@autoluxphoto</span>
+                <span className="text-sm text-muted-foreground">@bellakshoots</span>
               </a>
               
               <a
@@ -44,7 +44,7 @@ const Contact = () => {
               >
                 <Youtube className="h-8 w-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
                 <span className="text-foreground font-medium">YouTube</span>
-                <span className="text-sm text-muted-foreground">AutoLux Photography</span>
+                <span className="text-sm text-muted-foreground">bellakshoots</span>
               </a>
             </div>
           </div>

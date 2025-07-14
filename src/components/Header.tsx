@@ -14,7 +14,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Camera className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold neon-text">AutoLux Photography</span>
+            <span className="text-xl font-bold neon-text">bellakshoots</span>
           </Link>
 
           {/* Desktop Navigation */}
