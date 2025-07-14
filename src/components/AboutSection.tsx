@@ -12,13 +12,15 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6">
-              With over 8 years of experience in automotive photography, I specialize in capturing 
-              the raw power, elegant design, and intricate details that make each vehicle unique.
+              I'm a 22-year-old photographer from Tampa with a deep passion for capturing the beauty 
+              of cars and bikes. When I'm not behind the camera, you'll find me at the gym, traveling 
+              to new destinations, or exploring the automotive scene.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8">
-              From exotic supercars to classic vintage automobiles, my passion lies in revealing 
-              the personality and craftsmanship that defines automotive excellence.
+              My love for photography combines perfectly with my enthusiasm for cars and motorcycles. 
+              Each shoot is an opportunity to showcase the artistry, power, and craftsmanship that 
+              makes every vehicle unique and captivating.
             </p>
 
             {/* Stats */}
