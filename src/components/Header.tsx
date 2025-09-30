@@ -28,6 +28,9 @@ const Header = () => {
             <Link to="/services" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               Services
             </Link>
+            <Link to="/shop" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
+              Shop
+            </Link>
             <Link to="/contact" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
               Contact
             </Link>
@@ -68,6 +71,13 @@ const Header = () => {
                 onClick={toggleMenu}
               >
                 Services
+              </Link>
+              <Link
+                to="/shop"
+                className="block px-3 py-2 text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider"
+                onClick={toggleMenu}
+              >
+                Shop
               </Link>
               <Link
                 to="/contact"
