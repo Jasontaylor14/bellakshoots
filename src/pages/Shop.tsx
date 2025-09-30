@@ -35,19 +35,19 @@ const Shop = () => {
     },
     {
       id: 4,
-      name: "bellakshoots Signature Tee",
+      name: "JDM Culture Tee",
       category: "Apparel",
-      price: "$28",
-      image: "/lovable-uploads/4442890a-9554-4140-8265-805af3af7f67.png",
-      description: "Premium cotton t-shirt with bellakshoots logo"
+      price: "$32",
+      image: "/lovable-uploads/jdm-tee.png",
+      description: "Premium black tee with Japanese drift car graphics and kanji"
     },
     {
       id: 5,
-      name: "Automotive Dreams Hoodie",
+      name: "Street Racer Hoodie",
       category: "Apparel",
-      price: "$55",
-      image: "/lovable-uploads/452e4417-6a28-4de7-b4cd-241d1e63ba53.png",
-      description: "Cozy hoodie featuring exclusive automotive photography"
+      price: "$58",
+      image: "/lovable-uploads/racing-hoodie.png",
+      description: "Bold hoodie featuring classic muscle car and checkered flag design"
     },
     {
       id: 6,
@@ -59,11 +59,11 @@ const Shop = () => {
     },
     {
       id: 7,
-      name: "Track Day Cap",
+      name: "Turbo Life Snapback",
       category: "Accessories",
-      price: "$22",
-      image: "/lovable-uploads/4bd0a078-e7ba-420e-ad59-866b9e3f825c.png",
-      description: "Stylish cap for automotive enthusiasts"
+      price: "$26",
+      image: "/lovable-uploads/turbo-cap.png",
+      description: "Black snapback with embroidered turbo icon and racing stripes"
     },
     {
       id: 8,
